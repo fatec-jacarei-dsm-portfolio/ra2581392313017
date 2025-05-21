@@ -1,11 +1,127 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Portfólio - MURILO GOMES DA SILVA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Murilo Gomes</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="./assets/fonts/Poppins-Regular.ttf" rel="stylesheet">
+    <link rel="stylesheet" href="./libs/fontawesome-free-6.7.2-web/css/all.min.css">
 </head>
 <body>
-    <h1>Bem vindo ao Portfólio de MURILO GOMES DA SILVA</h1>
+    <nav class="navbar">
+        <h1>PORTFOLIO</h1>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#experiencias">Experiências</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#sobre">Sobre mim</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p>Olá, eu sou</p>
+                <h2>Murilo Gomes da Silva</h2>
+                <h3>Estudante de DSM</h3>
+                <p>Este é meu portifólio, seja bem vindo!</p>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./assets/imgs/profile.jpg" alt="Perfil">
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencias" class="experiences">
+        <h2>EXPERIÊNCIAS/ESTUDOS</h2>
+        <div class="experience-cards">
+            <div class="card">
+                <h3>FATEC JCR</h3>
+                <p class="period">2023-2025</p>
+                <h4>Desenvolvimento de Software Multiplataforma</h4>
+                <p class="description"></p>
+            </div>
+            <div class="card">
+                <h3>SENAI</h3>
+                <p class="period">2022-2023</p>
+                <h4>Curso Técnico em Eletromecânica</h4>
+                <p class="description"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="projects">
+        <h2>PROJETOS</h2>
+        <div class="project-cards">
+            <a href="https://github.com/Our-time-Fatec/API-2024_2-Documentacao" target="_blank" class="project-card">
+                <img src="./assets/imgs/4-semestre.png" alt="Da Vinci Care">
+                <div class="project-info">
+                    <h3>Da Vinci Care</h3>
+                    <p class="semester">4º Semestre</p>
+                    <p class="period">2024-2</p>
+                    <p class="description">Desenvolvimento de um aplicativo para acompanhar as dietas e metas calóricas do usuário</p>
+                </div>
+            </a>
+            <a href="https://github.com/Our-time-Fatec/API-2024_1-Documentacao" target="_blank" class="project-card">
+                <img src="./assets/imgs/3-semestre.png" alt="Da Vinci Care">
+                <div class="project-info">
+                    <h3>Vintura</h3>
+                    <p class="semester">3º Semestre</p>
+                    <p class="period">2024-1</p>
+                    <p class="description">Desenvolvimento de um site para poder checar o andamento dos projetos</p>
+                </div>
+            </a>
+            <a href="https://github.com/Our-time-Fatec/API-2023_2-Documentacao" target="_blank" class="project-card">
+                <img src="./assets/gifs/2-semestre.gif" alt="Bicicreta">
+                <div class="project-info">
+                    <h3>Bicicreta</h3>
+                    <p class="semester">2º Semestre</p>
+                    <p class="period">2023-2</p>
+                    <p class="description">Desenvolvimento de um site para aluguel de bicicletas, com o intuito de unir quem tem uma bicicleta e quer alugá-la</p>
+                </div>
+            </a>
+            <a href="https://github.com/Our-time-Fatec/Expert-Treinamentos" target="_blank" class="project-card">
+                <img src="./assets/gifs/1-semestre.gif" alt="Expert Treinamentos">
+                <div class="project-info">
+                    <h3>Expert Treinamentos</h3>
+                    <p class="semester">1º Semestre</p>
+                    <p class="period">2023-1</p>
+                    <p class="description">Elaboração de site para capacitação de colaboradores de empresas</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <h2>SOBRE MIM</h2>
+        <div class="about-content">
+            <img src="./assets/imgs/profile.jpg" alt="Perfil">
+            <div class="about-text">
+                <h3>Murilo Gomes da Silva</h3>
+                <p>Iniciei o curso de Tecnólogo em Desenvolvimento de Software Multiplataforma em 2023 e, desde então, tenho me dedicado constantemente a expandir meus conhecimentos na área, com o objetivo de ingressar de forma sólida no setor de tecnologia.</p>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2025 by </Murilo>. All Rights Reserved</p>
+    </footer>
+
+    <script src="./assets/js/scripts.js"></script>
 </body>
 </html>
